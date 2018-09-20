@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: agency-gateway
+  cloud:
+    config:
+      fail-fast: true
+
+server:
+  port: 8088
