@@ -57,4 +57,11 @@ public class Reservation {
 
 	private List<Passenger> passengers;
 
+	public String getId() {
+		return id.toString();
+	}
+	public void setId(String id) {
+		this.id = new ObjectId(id);
+	}
+
 }
