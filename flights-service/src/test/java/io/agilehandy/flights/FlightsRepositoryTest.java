@@ -22,7 +22,7 @@ import java.time.LocalDate;
         "spring.cloud.config.enabled=false",
         "data.filepath=/flights.dat"
 })
-public class FlightRepositoryTest {
+public class FlightsRepositoryTest {
 
     @Autowired
     private FlightsRepository repository;

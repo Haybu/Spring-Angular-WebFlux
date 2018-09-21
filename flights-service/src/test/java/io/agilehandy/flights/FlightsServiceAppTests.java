@@ -26,7 +26,7 @@ import java.util.Date;
         "spring.cloud.config.enabled=false",
         "data.filepath=/flights.dat"
 })
-public class FlightServiceAppTests {
+public class FlightsServiceAppTests {
 
 	@Autowired
 	private WebTestClient webTestClient;
